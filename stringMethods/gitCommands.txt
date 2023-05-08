@@ -1,0 +1,43 @@
+git config
+git checkout HEAD~1
+git status
+
+git add .
+git add <file_name>
+git add /<folder_name>/
+
+git stash
+git stash pop
+git stash apply
+git stash drop
+
+git branch –d [head]  ==> To delete a branch we can simply use the command .
+git branch -d <local_branch_name> ==> To delete a branch locally, we can simply run the command: 
+git push origin --delete <remote_branch_name> ==> To delete a branch remotely, run the command: 
+
+git remote
+git config
+
+git diff
+git status
+
+git rebase -i HEAD~{{N}}
+
+git checkout -b <<new_branch_name>>
+
+git branch --merged
+git branch --no-merged
+
+git commit -m "<message>"
+git revert <name of bad commit>
+
+git rm
+git reset
+
+git pull --rebase
+
+git reset --mixed command is used for undoing changes of the working directory and the git index.
+git merge --abort command is used for stopping the merge process and returning back to the state before the merging occurred.
+
+
+
