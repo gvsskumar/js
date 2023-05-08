@@ -1,3 +1,6 @@
+git add . 
+git restore --staged <file>... ==>This uncommited the f=specified file
+
 git config
 git checkout HEAD~1
 git status
@@ -6,7 +9,7 @@ git add .
 git add <file_name>
 git add /<folder_name>/
 
-git stash
+git stashgit
 git stash pop
 git stash apply
 git stash drop
