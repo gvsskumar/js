@@ -50,3 +50,13 @@ function EmptyObjForEach(obj1) {
     console.log(obj3);
   }
   EmptyObjForLength(obj3);
+
+  // map
+  let obj5 ={name:"Kumar",address:{
+    city:"Hyd"
+   }}
+   let objKeys = Object.keys(obj5);
+   objKeys.map((el)=>{
+    delete obj5[el];
+   })
+   console.log(obj5);
